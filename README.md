@@ -3,9 +3,10 @@ playing with webpack
 
 ## Installing / Getting started
 
-If you not already have Webpack and Webpack-dev-server, install them globally
+If you not already have Webpack install it globally 
+Note: if you don't want it globally you can still access it via `./node_modules/.bin/webpack` from project root
 ```shell
-npm install -g webpack webpack-dev-server
+npm install -g webpack 
 ```
 
 To Launch the server with live reloading
