@@ -1,4 +1,9 @@
 node_modules
 dev
+!dev/index.html
+build/
+!build/index.html
 staging
+!staging/index.html
 production
+!production/index.html
