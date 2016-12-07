@@ -17,7 +17,10 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "webpack-dev-server --content-base build/"
+    "build": "webpack --env=staging",
+    "serve": "webpack-dev-server --content-base dev/ --env=development",
+    "serve-staging": "webpack-dev-server --content-base staging/ --env=staging",
+    "serve-prod": "webpack-dev-server --content-base build/ --env=production"
   },
   "repository": {
     "type": "git",

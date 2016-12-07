@@ -1,12 +1,10 @@
- const webpack = require('webpack');
- 
+const webpack = require('webpack');
+const conf = require('./webpack/conf.js');
+console.log(conf.paths.output);
+
  module.exports = {
      entry: './src/index.js',
-     output: {
-         path: './build',
-         //publicPath: '/dev/',
-         filename: 'app.bundle.js',
-     },
+     output: conf.paths.output,
      devServer: { 
         inline: true //default should be true. Only use iframe if production should be within iframe too
     },
