@@ -1,2 +1,2 @@
-const cats = ['bobby', 'sam', 'youpi', 'myou'];
+const cats = ['bobby', 'bob le chat', 'myou'];
 module.exports = cats;
