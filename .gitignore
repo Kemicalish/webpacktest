@@ -3,5 +3,5 @@ dev
 !dev/index.html
 staging
 !staging/index.html
-production
-!production/index.html
+prod
+!prod/index.html

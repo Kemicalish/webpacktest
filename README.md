@@ -52,12 +52,12 @@ npm run build
 build bundle in development mode (files are output to the <output_dev> directory, default is `dev`, see: `webpack/env.js`)
 
 ```shell
-npm run build
+npm run build:staging
 ```
 build bundle in staging mode (files are output to the <output_staging> directory, default is `staging`, see: `webpack/env.js`)
 
 ```shell
-npm run build
+npm run build:prod
 ```
 build bundle in production mode (files are output to the <output_prod> directory, default is `prod`, see: `webpack/env.js`)
 
