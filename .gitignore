@@ -1,7 +1,4 @@
 node_modules
-
-!dev/index.html
-
-!staging/index.html
-
-!prod/index.html
+dev
+staging
+prod
