@@ -31,8 +31,8 @@ Beware that your app is rendered within an iframe (you won't see your url change
 
 ## Configuration
 
-*webpack.config.js: global config
-*webpack/conf.js: environment specific config
+ - **webpack.config.js**: global config
+ - **webpack/conf.js**: environment specific config
 
 ## Other commands:
 ```shell
@@ -48,16 +48,16 @@ run server in production mode
 ```shell
 npm run build
 ```
-build bundle in development mode (files are output the <output_dev> directory, default is `dev`, see: `webpack/env.js`)
+build bundle in development mode (files are output to the <output_dev> directory, default is `dev`, see: `webpack/env.js`)
 
 ```shell
 npm run build
 ```
-build bundle in staging mode (files are output the <output_staging> directory, default is `staging`, see: `webpack/env.js`)
+build bundle in staging mode (files are output to the <output_staging> directory, default is `staging`, see: `webpack/env.js`)
 
 ```shell
 npm run build
 ```
-build bundle in production mode (files are output the <output_prod> directory, default is `prod`, see: `webpack/env.js`)
+build bundle in production mode (files are output to the <output_prod> directory, default is `prod`, see: `webpack/env.js`)
 
 
