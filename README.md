@@ -4,7 +4,8 @@ Webpack Minimal Test
 ## Installing / Getting started
 
 If you not already have Webpack install it globally 
-Note: if you don't want it globally you can still access it via `./node_modules/.bin/webpack` from project root
+
+**Note:** if you don't want it globally you can still access it via `./node_modules/.bin/webpack` from project root
 ```shell
 npm install -g webpack 
 ```
