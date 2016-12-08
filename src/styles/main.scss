@@ -1,0 +1,15 @@
+@import 'vars';
+
+body{
+    margin:0;
+    padding:0;
+    color:$default-color;
+    background:url('#{$images-path}forkme_left_orange_ff7600.png') top left no-repeat;
+}
+
+.webpack-def{
+    background:url('#{$images-path}what-is-webpack.png') center no-repeat;
+    width:100%;
+    height:200px;
+    background-size:contain;
+}
